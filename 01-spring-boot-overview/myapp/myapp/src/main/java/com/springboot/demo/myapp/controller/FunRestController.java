@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FunRestController {
 
-    // Inject custom properties for : coach.name and team.name - defined in the application.properties file
+    //Inject custom properties for : coach.name and team.name - defined in the application.properties file
     @Value("${coach.name}")
     private String coachName;
 
